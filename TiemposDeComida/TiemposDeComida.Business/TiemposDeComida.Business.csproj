@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TiemposDeComida.Data\TiemposDeComida.Data.csproj" />
+    <ProjectReference Include="..\TiemposDeComida.Domain\TiemposDeComida.Domain.csproj" />
+    <ProjectReference Include="..\TiemposDeComida.Shared\TiemposDeComida.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
