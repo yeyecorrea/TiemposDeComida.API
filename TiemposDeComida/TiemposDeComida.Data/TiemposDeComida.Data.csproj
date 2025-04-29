@@ -21,4 +21,9 @@
     <ProjectReference Include="..\TiemposDeComida.Shared\TiemposDeComida.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
